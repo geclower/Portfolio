@@ -1,0 +1,56 @@
+
+
+body {
+  background-color: bisque;
+  color: darkslategray;
+  margin: 16px; 
+ 
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas:
+    "aside header header"
+    "main main main"
+    "nav blank blank";
+}
+
+
+
+/* div.background { */
+  /* background: url("https://cdn-icons-png.flaticon.com/256/426/426146.png"); */
+  /* padding: 50px; */
+/* } */
+
+header {
+  display: flex;
+  grid-area: header;
+  font-size: 60px;
+  justify-content: end;
+}
+
+aside {
+  grid-area: aside;
+  display: flex;
+  font-size: 50px;
+}
+
+main {
+  display: flex;
+  grid-area: main;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+
+nav {
+  grid-area: nav;
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    body{
+     background-color: white;
+    }
+ }
