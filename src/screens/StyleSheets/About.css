@@ -1,0 +1,37 @@
+.aboutPage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#profileCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 75%;
+    width: 45%;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    background-color: white;
+    font-family: Quicksand;
+}
+
+#profilePic{
+    width: 90%;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+
+#profileName{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#profileMiniBio{
+    font-size: 18px;
+    text-align: center;
+}
