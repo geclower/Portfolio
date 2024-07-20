@@ -1,0 +1,95 @@
+#profileCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 75%;
+    width: 350px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    background-color: white;
+    font-family: Quicksand;
+}
+
+#profilePic{
+    width: 90%;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+
+#profileName{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#profileMiniBio{
+    font-size: 18px;
+    text-align: center;
+}
+
+#buttonBar{
+    display: flex;
+    gap: 20px
+}
+
+.profileButtons{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Linked In */
+#linkedInButton{
+    background-color: #92ddea;
+}
+
+#linkedInButton:hover{
+    background-color: #7eb8da;
+    border: 2px solid grey;
+}
+
+#linkedInIcon{
+    height: 100%;
+}
+
+/* Git Hub */
+#gitHubButton{
+    background-color: #aaedd4;
+}
+
+#gitHubButton:hover{
+    background-color: #4cf0b4;
+    border: 2px solid grey;
+}
+
+#gitHubIcon{
+    height: 100%;
+}
+
+/* Instagram */
+#instaButton{
+    background-color: #be9ddf;
+}
+#instaButton:hover{
+    background-color: #9579d1;
+    border: 2px solid grey;
+}
+
+#instaIcon{
+    height: 85%;
+}
+
+/* Email */
+#emailButton{
+    background-color: #ffa5d8;
+}
+#emailButton:hover{
+    background-color: #fc57b4;
+    border: 2px solid grey;
+}

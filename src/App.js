@@ -4,7 +4,7 @@ import './App.css';
 import Home from './screens/Home.jsx'
 import Projects from './screens/Projects.jsx';
 import About from './screens/About.jsx';
-import Navbar from './components/navBar/Navbar.jsx';
+import ProfileCard from './components/Profilecard/profileCard.jsx';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
       <Route path="/" element={<Home />}/>
       <Route path="/projects" element={<Projects />}/>
       <Route path="/about" element={<About />}/>
-      <Route path="/nav" element = {<Navbar/>}/>
+      <Route path="/profile" element = {<ProfileCard/>}/>
     </Routes>
     </div>
   );

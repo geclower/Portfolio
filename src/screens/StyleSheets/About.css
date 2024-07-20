@@ -3,35 +3,22 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
-#profileCard{
+.aboutSection{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
-    height: 75%;
-    width: 45%;
+    width: 600px;
+    gap: 20px;
+}
+
+.longerBio, .experience, .skills{
     border: 2px solid lightgray;
-    border-radius: 15px;
     background-color: white;
-    font-family: Quicksand;
-}
-
-#profilePic{
-    width: 90%;
-    border: 2px solid lightgray;
     border-radius: 15px;
-}
-
-#profileName{
+    height: min-content;
     font-family: Quicksand;
-    font-weight: bold;
-    font-size: 40px;
+    padding: 10px 30px 
 }
 
-#profileMiniBio{
-    font-size: 18px;
-    text-align: center;
-}

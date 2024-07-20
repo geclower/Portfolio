@@ -17,9 +17,7 @@ function navbar() {
         <Link to="/about" className="navLink" id="aboutNav">
         <img id="aboutIcon" src="https://i.imgur.com/h7gmnga.png"/>
         </Link>
-        {/* <Link href="mail.google.com" className="navLink" id="mailNav">
-        <img id="mailIcon" src="https://i.imgur.com/CQVjnKf.png"/>
-        </Link> */}
+
         <div  className="navLink" id="mailNav" onClick={(e) => {window.location.href ='mailto:clower.grace@gmail.com';}}><img id="mailIcon" src="https://i.imgur.com/CQVjnKf.png"/></div>
         
       </nav>
