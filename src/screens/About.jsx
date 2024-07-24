@@ -2,37 +2,98 @@ import React from "react";
 import "./StyleSheets/About.css";
 import Navbar from "../components/navBar/Navbar";
 import ProfileCard from "../components/Profilecard/profileCard";
+import pdf from "../../public/"
+
 
 function About() {
   return (
     <div className="aboutPage">
-      <ProfileCard />
+      <div classname="profileSection">
+        <ProfileCard />
+      </div>
       <div className="aboutSection">
         <div className="longerBio">
           <h2>About Me :)</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu
-          blandit diam. Quisque consequat at mauris et venenatis. Donec nec
-          varius diam. Sed ut massa sed risus vehicula aliquet. Vestibulum vel
-          efficitur orci. Interdum et malesuada fames ac ante ipsum primis in
-          faucibus. Aliquam erat volutpat. Nulla luctus nunc massa. Sed id augue
-          ac mi mattis egestas. In ultrices metus a rhoncus ultricies. Morbi vel
-          dui mollis, ullamcorper orci sed, dapibus urna. Nunc facilisis a
-          turpis in tincidunt. Maecenas imperdiet, orci at faucibus tincidunt,
-          eros ipsum vehicula lorem, ultrices iaculis augue nulla fermentum
-          neque. Pellentesque posuere vulputate scelerisque. Nullam gravida,
-          ante quis blandit tincidunt, ipsum elit egestas neque, nec porta arcu
-          lectus in mi. Quisque sed convallis dui. Suspendisse ac porttitor
-          massa. Sed ornare diam enim, ut laoreet mi rhoncus eu.
+          <p className="bio">
+            I'm Grace! A software developer and artist who loves solving
+            puzzles, working with a team, and finding creative solutions. In my
+            previous career in customer service I helped build teams that
+            focused on collaboration and sharing resources. I also found a deep
+            love of helping others learn and thrive through my time teaching
+            stage combat. I want to bring my curiosity and problem-solving
+            skills to help a team grow and build creative technology to make art
+            accessible to as many people as possible.<br></br>
+            In my free time, I explore on the SV Amari. I love going to new
+            places and meeting wonderful people from around the world. I also
+            obessesivly cross-stitch and I've just started DM'ing some D&D
+            campaigns for my friends and family!
           </p>
         </div>
         <div className="experience">
-        <h2>Experience</h2>
+          <h2>Experience</h2>
+          <div className="resume-toyota">
+            <h5>Service Team Lead - Rutherford & Bond Toyota</h5>
+            <ul>
+              <li>
+                Built a customized tracking system in Excel to track all active
+                jobs to support project management and align budgets to monthly
+                growth targets and KPIs.{" "}
+              </li>
+              <li>
+                Conducted team training programs; individualizing strategy and
+                planning based on employee needs.
+              </li>
+            </ul>
+            <hr></hr>
+          </div>
+          <div className="resume-medwell">
+            <h5>Client Relations Manager - Mediterranean Wellness</h5>
+            <ul>
+              <li>
+                Managed multiple corporate clients as primary POC, scheduling
+                and implementing yearly employee challenges, wellness education,
+                and biometric data to increase employee health and engagements;
+                reducing overhead costs.
+              </li>
+              <li>
+                Organized and managed a global weight loss program with over 3K
+                participants and a global fitness program that spanned 28
+                countries.
+              </li>
+            </ul>
+            <hr></hr>
+          </div>
+          <div className="resume-noho">
+            <h5>Reservations Supervisor - NoHo Hospitality</h5>
+            <ul>
+              <li>
+                Supervised a centralized reservations department that took calls
+                for 12 restaurant and bar locations in Manhattan, Brooklyn,
+                Baltimore, and Detroit receiving approximately 6,000 calls per
+                week.
+              </li>
+            </ul>
+            <hr></hr>
+          </div>
+          <div className="resume-combat">
+            <h5>Assistant Teacher - Stage Combat - NYU, SUNY Purchase</h5>
+            <ul>
+              <li>
+                Taught multiple stage combat weapon techniques across various
+                age groups, focusing on safety and flexibility of learning
+                styles.
+              </li>
+            </ul>
+          </div>
+          <div className="resume-div">
+            <a classname="resume" href={pdf} download>
+              View Full Resume
+            </a>
+          </div>
         </div>
         <div className="skills">
-        <h2>Skills</h2>
+          <h2>Skills</h2>
         </div>
-        
-        
       </div>
       <Navbar />
     </div>

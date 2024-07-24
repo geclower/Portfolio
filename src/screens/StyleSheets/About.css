@@ -2,23 +2,58 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 50px;
+    gap: 50px
 }
+
+.profileSection{
+    position: fixed;
+}
+
 
 .aboutSection{
     display: flex;
     flex-direction: column;
     width: 600px;
-    gap: 20px;
+    gap: 55px;
+    height: 80%;
+    overflow:auto;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aboutSection::-webkit-scrollbar{
+    display: none;
 }
 
 .longerBio, .experience, .skills{
     border: 2px solid lightgray;
     background-color: white;
     border-radius: 15px;
-    height: min-content;
+    height: 90%;
     font-family: Quicksand;
-    padding: 10px 30px 
+    padding: 20px 30px;
+    width: 90%
 }
 
+.bio{
+    font-size: 18px;
+}
+
+.longerBio{
+    box-shadow: 1px 1px 20px 10px #9579d1;
+
+}
+
+.experience{
+    box-shadow: 1px 1px 20px 10px #4cf0b4;
+    height:fit-content;
+
+}
+
+.resume-div{
+    text-align: right;
+    font-size: 20px;
+}
