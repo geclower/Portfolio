@@ -38,14 +38,40 @@
     width: 90%
 }
 
-.bio{
-    font-size: 18px;
-}
-
 .longerBio{
     box-shadow: 1px 1px 20px 10px #9579d1;
 
 }
+
+.bio{
+    font-size: 18px;
+}
+
+.skills{
+    box-shadow: 1px 1px 20px 10px #fc57b4;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-sec{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.solo-skills{
+    font-size: 18px;
+    background-color: #F1F3F4;
+    width:fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
 
 .experience{
     box-shadow: 1px 1px 20px 10px #4cf0b4;
@@ -53,7 +79,14 @@
 
 }
 
+
 .resume-div{
     text-align: right;
     font-size: 20px;
+}
+
+h5{
+    font-family: Quicksand;
+    font-weight:500;
+    font-size: 17px;
 }

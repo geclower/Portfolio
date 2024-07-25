@@ -2,7 +2,7 @@ import React from "react";
 import "./StyleSheets/About.css";
 import Navbar from "../components/navBar/Navbar";
 import ProfileCard from "../components/Profilecard/profileCard";
-import pdf from "../../public/"
+import pdf from "../FullResumeGraceClower.pdf"
 
 
 function About() {
@@ -86,13 +86,32 @@ function About() {
             </ul>
           </div>
           <div className="resume-div">
-            <a classname="resume" href={pdf} download>
+            <a classname="resume" href={pdf} download target="_blank">
               View Full Resume
             </a>
           </div>
         </div>
         <div className="skills">
           <h2>Skills</h2>
+          <div className="skill-sec">
+          <p className="solo-skills">Javascript</p>
+          <p className="solo-skills">Python</p>
+          <p className="solo-skills">PHP</p>
+          <p className="solo-skills">HTML</p>
+          <p className="solo-skills">CSS</p>
+          <p className="solo-skills">SQL</p>
+          <p className="solo-skills">Git</p>
+          <p className="solo-skills">Node.js</p>
+          <p className="solo-skills">JSON</p>
+          <p className="solo-skills">React</p>
+          <p className="solo-skills">Express</p>
+          <p className="solo-skills">Django</p>
+          <p className="solo-skills">MongoDB</p>
+          <p className="solo-skills">PostgreSQL</p>
+          <p className="solo-skills">RESTful Routing</p>
+          <p className="solo-skills">Express</p>
+
+          </div>
         </div>
       </div>
       <Navbar />

@@ -1,9 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-// import { Link } from "@react-email/components";
 import { Link } from "react-router-dom";
 
 function navbar() {
+  
+
+
   return (
     <div className="navbar">
       

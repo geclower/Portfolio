@@ -1,0 +1,74 @@
+.projects{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    overflow:auto;
+    padding-bottom: 150px;
+}
+
+.projects::-webkit-scrollbar{
+    display: none;
+}
+
+
+.project-preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid lightgray;
+    height:700px;
+    border-radius: 15px;
+    width: 35%;
+    text-decoration: none;
+}
+
+.preview-pic{
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.preview-title{
+    font-family: Quicksand;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.preview-oneliner{
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+#touchstone:hover{
+    box-shadow: 1px 1px 20px 10px #4cf0b4;
+}
+
+#rekt:hover{
+    box-shadow: 1px 1px 20px 10px #9579d1;
+}
+
+#riff:hover{
+    box-shadow: 1px 1px 20px 10px #EC964A;
+}
+
+#wellmet:hover{
+    box-shadow: 1px 1px 20px 10px #ffa5d8;
+}
+
+#whereartthou:hover{
+    box-shadow: 1px 1px 20px 10px #F7665F;
+}
+
+#bwaybound:hover{
+    box-shadow: 1px 1px 20px 10px darkgrey;
+}
+
+
+
