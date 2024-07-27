@@ -1,0 +1,98 @@
+.project{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+}
+.project-riff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    overflow: visible;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    z-index: 0;
+}
+
+.project::-webkit-scrollbar{
+    display: none;
+}
+
+/*image */
+.project-riff-image{
+    border: 2px, solid, lightgray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.project-image{
+    border-radius: 15px;
+}
+
+/* title */
+.project-riff-title{
+    font-family: Quicksand;
+    font-size: 50px;
+}
+
+/* skills */
+
+#riff-solo-skills{
+    background-color: white;
+}
+
+/* overview */
+.project-overview{
+    width: 75%;
+    font-family: Quicksand;
+    font-size: 20px;
+   
+}
+
+#project-overview-title{
+    font-family: Quicksand;
+    font-size: 30px;
+}
+
+/* contribution */
+
+.project-contribution{
+    width: 75%;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+#project-contribution-title{
+    font-family: Quicksand;
+    font-size: 30px;
+}
+
+/* links */
+.project-links{
+    display: flex;
+    gap: 50px;
+    font-family: Quicksand;
+    font-size: 30px;
+
+}
+
+.project-link{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border: 2px, solid, lightgray;
+    border-radius: 15px;
+}
+
+.project-link:hover{
+    box-shadow: 1px 1px 20px 10px #EC964A;
+}
+
+#gradient-riff{
+    position:fixed;
+    z-index: -1;
+    background-image: linear-gradient( hsl(28, 81%, 61%, 1), hsl(326, 100%, 82%));
+}

@@ -5,7 +5,7 @@
     align-items: center;
     overflow:auto;
 }
-.project-touchstone{
+.project-rekt{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 /*image */
-.project-touchstone-image{
+.project-rekt-image{
     border: 2px, solid, lightgray;
     border-radius: 15px;
     display: flex;
@@ -33,14 +33,14 @@
 }
 
 /* title */
-.project-touchstone-title{
+.project-rekt-title{
     font-family: Quicksand;
     font-size: 50px;
 }
 
 /* skills */
 
-#touchstone-solo-skills{
+#rekt-solo-skills{
     background-color: white;
 }
 
@@ -88,11 +88,11 @@
 }
 
 .project-link:hover{
-    box-shadow: 1px 1px 20px 10px #4cf0b4;
+    box-shadow: 1px 1px 20px 10px #9579d1;
 }
 
-#gradient-touchstone{
+#gradient-rekt{
     position:fixed;
     z-index: -1;
-    background-image: linear-gradient( hsl(158, 85%, 62%, 1), hsl(326, 100%, 82%));
+    background-image: linear-gradient( hsl(259, 49%, 65%, 1), hsl(326, 100%, 82%));
 }

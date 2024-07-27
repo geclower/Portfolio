@@ -25,6 +25,7 @@ function Touchstone() {
             React
           </p>
         </div>
+        <div class="gradient" id="gradient-touchstone"></div>
         <div className="project-overview">
           <h3 id="project-overview-title"> Overview</h3>
           <p>
@@ -61,6 +62,7 @@ function Touchstone() {
             Hackathon
           </Link>
         </div>
+       
       </div>
       <Navbar />
     </div>
