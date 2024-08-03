@@ -37,8 +37,8 @@ function Projects() {
         <div className="skill-sec">
         <p className="solo-skills">Django</p>
         <p className="solo-skills">Python</p>
-        <p className="solo-skills">React</p>
-        <p className="solo-skills">Node.js</p>
+        <p className="solo-skills">PostgreSQL</p>
+        <p className="solo-skills">RESTful Routing</p>
         </div>
       </Link>
       <Link to="/projects/wellmet" className="project-preview" id="wellmet">
@@ -48,8 +48,9 @@ function Projects() {
         </p>
         <div className="skill-sec">
         <p className="solo-skills">Javascript</p>
-        <p className="solo-skills">CSS</p>
+        <p className="solo-skills">JSON</p>
         <p className="solo-skills">React</p>
+        <p className="solo-skills">CSS</p>
         </div>
       </Link>
       <Link to="/projects/whereartthou" className="project-preview" id="whereartthou">

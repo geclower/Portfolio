@@ -13,6 +13,31 @@ function Rekt() {
             src="https://i.imgur.com/IU5D58Q.jpg"
           />
         </div>
+        <div class="gradient" id="gradient-rekt"></div>
+        <div className="project-links">
+          <Link
+            className="project-link-rekt"
+            to="https://github.com/jbourke16/team-rekt-frontend"
+            target="_blank"
+          >
+            GitHub - Frontend
+          </Link>
+          <Link
+            className="project-link-rekt"
+            to="https://github.com/jbourke16/team-rekt-backend"
+            target="_blank"
+          >
+            GitHub - Backend
+          </Link>
+          <Link
+            className="project-link-rekt"
+            to="https://rekt-api.netlify.app/"
+            target="_blank"
+          >
+            Live
+          </Link>
+        </div>
+        <div className="project-rekt-bio">
         <h2 className="project-rekt-title">Rek't</h2>
         <div className="skill-sec">
           <p className="solo-skills" id="rekt-solo-skills">
@@ -28,7 +53,7 @@ function Rekt() {
             Node.js
           </p>
         </div>
-        <div class="gradient" id="gradient-rekt"></div>
+       
         <div className="project-overview">
           <h3 id="project-overview-title"> Overview</h3>
           <p>
@@ -51,29 +76,8 @@ function Rekt() {
             Node.js.
           </p>
         </div>
-        <div className="project-links">
-          <Link
-            className="project-link"
-            to="https://github.com/jbourke16/team-rekt-frontend"
-            target="_blank"
-          >
-            GitHub - Frontend
-          </Link>
-          <Link
-            className="project-link"
-            to="https://github.com/jbourke16/team-rekt-backend"
-            target="_blank"
-          >
-            GitHub - Backend
-          </Link>
-          <Link
-            className="project-link"
-            to="https://rekt-api.netlify.app/"
-            target="_blank"
-          >
-            Live
-          </Link>
         </div>
+        
       </div>
       <Navbar />
     </div>

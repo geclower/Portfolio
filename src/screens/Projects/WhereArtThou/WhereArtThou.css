@@ -1,0 +1,112 @@
+.project{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+}
+.project-whereart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    overflow: visible;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    z-index: 0;
+    gap: 50px;
+}
+
+.project::-webkit-scrollbar{
+    display: none;
+}
+
+/*image */
+.project-whereart-image{
+    border: 2px, solid, lightgray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.project-image{
+    border-radius: 15px;
+}
+
+/* project bio */
+.project-whereart-bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    background-color: white;
+    width: 80%;
+    padding: 10px 0;
+}
+
+/* title */
+.project-whereart-title{
+    font-family: Quicksand;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* skills */
+
+.skill-sec{
+    justify-content: center;
+}
+
+/* overview */
+.project-overview{
+    width: 75%;
+    font-family: Quicksand;
+    font-size: 20px;
+   
+}
+
+#project-overview-title{
+    font-family: Quicksand;
+    font-size: 30px;
+}
+
+/* contribution */
+
+.project-contribution{
+    width: 75%;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+#project-contribution-title{
+    font-family: Quicksand;
+    font-size: 30px;
+}
+
+/* links */
+.project-links{
+    display: flex;
+    gap: 50px;
+    font-family: Quicksand;
+    font-size: 30px;
+
+}
+
+.project-link-whereart{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border: 2px, solid, lightgray;
+    border-radius: 15px;
+}
+
+.project-link-whereart:hover{
+    box-shadow: 1px 1px 20px 10px #F7665F;
+}
+
+#gradient-whereart{
+    position:fixed;
+    z-index: -1;
+    background-image: linear-gradient( hsl(3, 90%, 67%, 1), hsl(326, 100%, 82%));
+}

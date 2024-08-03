@@ -3,12 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     gap: 50px
 }
 
 .profileSection{
     position: fixed;
+
 }
 
 .aboutSection{
@@ -16,11 +17,11 @@
     flex-direction: column;
     width: 600px;
     gap: 55px;
-    height: 80%;
+    height: 100%;
     overflow:auto;
     align-items: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 150px;
 }
 
 .aboutSection::-webkit-scrollbar{

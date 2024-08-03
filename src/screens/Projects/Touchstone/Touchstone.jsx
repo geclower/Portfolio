@@ -13,6 +13,24 @@ function Touchstone() {
             src="https://i.imgur.com/IU5D58Q.jpg"
           />
         </div>
+        <div class="gradient" id="gradient-touchstone"></div>
+        <div className="project-links">
+          <Link
+            className="project-link-touchstone"
+            to="https://github.com/CodingDos/TouchStone"
+            target="_blank"
+          >
+            GitHub
+          </Link>
+          <Link
+            className="project-link-touchstone"
+            to="https://devpost.com/software/braille-lcz7dt"
+            target="_blank"
+          >
+            Hackathon
+          </Link>
+        </div>
+        <div className="project-touchstone-bio">
         <h2 className="project-touchstone-title">Touchstone</h2>
         <div className="skill-sec">
           <p className="solo-skills" id="touchstone-solo-skills">
@@ -25,7 +43,7 @@ function Touchstone() {
             React
           </p>
         </div>
-        <div class="gradient" id="gradient-touchstone"></div>
+      
         <div className="project-overview">
           <h3 id="project-overview-title"> Overview</h3>
           <p>
@@ -46,22 +64,8 @@ function Touchstone() {
             internal file structure to connect across the app.
           </p>
         </div>
-        <div className="project-links">
-          <Link
-            className="project-link"
-            to="https://github.com/CodingDos/TouchStone"
-            target="_blank"
-          >
-            GitHub
-          </Link>
-          <Link
-            className="project-link"
-            to="https://devpost.com/software/braille-lcz7dt"
-            target="_blank"
-          >
-            Hackathon
-          </Link>
         </div>
+       
        
       </div>
       <Navbar />

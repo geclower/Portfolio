@@ -13,6 +13,24 @@ function Riff() {
             src="https://i.imgur.com/IU5D58Q.jpg"
           />
         </div>
+        <div class="gradient" id="gradient-riff"></div>
+        <div className="project-links">
+          <Link
+            className="project-link-riff"
+            to="https://github.com/jwow1000/front-end-riff"
+            target="_blank"
+          >
+            GitHub - Frontend
+          </Link>
+          <Link
+            className="project-link-riff"
+            to="https://github.com/jbourke16/team-rekt-backend"
+            target="_blank"
+          >
+            GitHub - Backend
+          </Link>
+        </div>
+        <div className="project-riff-bio">
         <h2 className="project-riff-title">[RIFF]</h2>
         <div className="skill-sec">
           <p className="solo-skills" id="riff-solo-skills">
@@ -24,8 +42,11 @@ function Riff() {
           <p className="solo-skills" id="riff-solo-skills">
             PostgreSQL
           </p>
+          <p className="solo-skills" id="riff-solo-skills">
+            RESTful Routing
+          </p>
         </div>
-        <div class="gradient" id="gradient-riff"></div>
+        
         <div className="project-overview">
           <h3 id="project-overview-title"> Overview</h3>
           <p>
@@ -51,22 +72,8 @@ function Riff() {
             art.
           </p>
         </div>
-        <div className="project-links">
-          <Link
-            className="project-link"
-            to="https://github.com/jwow1000/front-end-riff"
-            target="_blank"
-          >
-            GitHub - Frontend
-          </Link>
-          <Link
-            className="project-link"
-            to="https://github.com/jbourke16/team-rekt-backend"
-            target="_blank"
-          >
-            GitHub - Backend
-          </Link>
         </div>
+        
       </div>
       <Navbar />
     </div>
