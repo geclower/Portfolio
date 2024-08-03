@@ -33,22 +33,19 @@
 }
 
 #homeNav:hover{
-    background-color: #aaedd4;
     border: 2px solid grey; 
 }
 
 #projectNav:hover{
-    background-color: #92DDEA;
     border: 2px solid grey; 
 }
 
+
 #aboutNav:hover{
-    background-color: #be9ddf;
     border: 2px solid grey; 
 }
 
 #mailNav:hover{
-    background-color: #ffa5d8;
     border: 2px solid grey;
     cursor: pointer;
 }
