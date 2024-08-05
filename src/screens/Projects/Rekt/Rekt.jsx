@@ -10,7 +10,7 @@ function Rekt() {
         <div className="project-rekt-image">
           <img
             className="project-image"
-            src="https://i.imgur.com/IU5D58Q.jpg"
+            src="https://i.imgur.com/pnwr40r.png"
           />
         </div>
         <div class="gradient" id="gradient-rekt"></div>
@@ -38,7 +38,7 @@ function Rekt() {
           </Link>
         </div>
         <div className="project-rekt-bio">
-        <h2 className="project-rekt-title">Rek't</h2>
+        <h2 className="project-rekt-title">REK'T</h2>
         <div className="skill-sec">
           <p className="solo-skills" id="rekt-solo-skills">
             MongoDB
@@ -76,6 +76,20 @@ function Rekt() {
             Node.js.
           </p>
         </div>
+        </div>
+        <div className="project-rekt-screens">
+          <img
+            className="project-screen-large"
+            src="https://i.imgur.com/NJ26PnH.png"
+          />
+          <img
+            className="project-screen-small"
+            src="https://i.imgur.com/tzzHXWw.png"
+          />
+          <img
+            className="project-screen-small"
+            src="https://i.imgur.com/nKU4sjE.png"
+          />
         </div>
         
       </div>

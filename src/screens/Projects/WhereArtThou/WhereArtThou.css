@@ -28,6 +28,7 @@
     border-radius: 15px;
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 .project-image{
     border-radius: 15px;
@@ -109,4 +110,25 @@
     position:fixed;
     z-index: -1;
     background-image: linear-gradient( hsl(3, 90%, 67%, 1), hsl(326, 100%, 82%));
+}
+
+/* screens */
+
+.project-whereart-screens{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 30px;
+    justify-content: center;
+}
+
+.project-screen-large{
+    width: 65%;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+.project-screen-small{
+    width: 40%;
+    border: 2px solid lightgray;
+    border-radius: 15px;
 }

@@ -10,7 +10,7 @@ function WhereArtThou() {
         <div className="project-whereart-image">
           <img
             className="project-image"
-            src="https://i.imgur.com/IU5D58Q.jpg"
+            src="https://i.imgur.com/Ck5edln.png"
           />
         </div>
         <div class="gradient" id="gradient-whereart"></div>
@@ -71,6 +71,20 @@ function WhereArtThou() {
               queries to optimize the look and feel of the user experience.
             </p>
           </div>
+        </div>
+        <div className="project-whereart-screens">
+          <img
+            className="project-screen-small"
+            src="https://i.imgur.com/Lj07dsq.png"
+          />
+          <img
+            className="project-screen-small"
+            src="https://i.imgur.com/rtXqaZ4.png"
+          />
+          <img
+            className="project-screen-large"
+            src="https://i.imgur.com/XM9HYhi.png"
+          />
         </div>
       </div>
       <Navbar />

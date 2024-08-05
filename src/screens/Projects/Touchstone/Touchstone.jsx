@@ -10,7 +10,7 @@ function Touchstone() {
         <div className="project-touchstone-image">
           <img
             className="project-image"
-            src="https://i.imgur.com/IU5D58Q.jpg"
+            src="https://i.imgur.com/iV3kRAY.jpeg"
           />
         </div>
         <div class="gradient" id="gradient-touchstone"></div>
@@ -31,42 +31,54 @@ function Touchstone() {
           </Link>
         </div>
         <div className="project-touchstone-bio">
-        <h2 className="project-touchstone-title">Touchstone</h2>
-        <div className="skill-sec">
-          <p className="solo-skills" id="touchstone-solo-skills">
-            Javascript
-          </p>
-          <p className="solo-skills" id="touchstone-solo-skills">
-            CSS
-          </p>
-          <p className="solo-skills" id="touchstone-solo-skills">
-            React
-          </p>
+          <h2 className="project-touchstone-title">Touchstone</h2>
+          <div className="skill-sec">
+            <p className="solo-skills" id="touchstone-solo-skills">
+              Javascript
+            </p>
+            <p className="solo-skills" id="touchstone-solo-skills">
+              CSS
+            </p>
+            <p className="solo-skills" id="touchstone-solo-skills">
+              React
+            </p>
+          </div>
+
+          <div className="project-overview">
+            <h3 id="project-overview-title"> Overview</h3>
+            <p>
+              Explore Braille with TouchStone, a learning app tailored for
+              individuals experiencing vision loss and those curious about
+              Braille. Our platform offers a user-friendly interface and
+              engaging quizzes all while incorporating Gemini AI to answer any
+              query about Braille questions/translations.
+            </p>
+          </div>
+          <div className="project-contribution">
+            <h3 id="project-contribution-title">My Contributions</h3>
+            <p>
+              I worked closely with our UX team and personally created the front
+              end structure and all components to help the team maintain
+              uniformity through the app. This supported menus, search bar
+              functionality, visual rendering capabilities, as well as the
+              internal file structure to connect across the app.
+            </p>
+          </div>
         </div>
-      
-        <div className="project-overview">
-          <h3 id="project-overview-title"> Overview</h3>
-          <p>
-            Explore Braille with TouchStone, a learning app tailored for
-            individuals experiencing vision loss and those curious about
-            Braille. Our platform offers a user-friendly interface and engaging
-            quizzes all while incorporating Gemini AI to answer any query about
-            Braille questions/translations.
-          </p>
+        <div className="project-touchstone-screens">
+          <img
+            className="project-screen-small"
+            src="https://i.imgur.com/KkuCsdE.png"
+          />
+          <img
+            className="project-screen-small"
+            src="https://i.imgur.com/VmXTcBZ.png"
+          />
+          <img
+            className="project-screen-large"
+            src="https://i.imgur.com/WaxqrPi.png"
+          />
         </div>
-        <div className="project-contribution">
-          <h3 id="project-contribution-title">My Contributions</h3>
-          <p>
-            I worked closely with our UX team and personally created the front
-            end structure and all components to help the team maintain
-            uniformity through the app. This supported menus, search bar
-            functionality, visual rendering capabilities, as well as the
-            internal file structure to connect across the app.
-          </p>
-        </div>
-        </div>
-       
-       
       </div>
       <Navbar />
     </div>

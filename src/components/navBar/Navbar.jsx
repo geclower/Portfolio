@@ -12,7 +12,7 @@ function navbar() {
           id="homeNav"
           style={({ isActive }) => {
             return {
-              backgroundColor: isActive ? "#92DDEA" : "#f1f3f4",
+              backgroundColor: isActive ? "#aaedd4" : "#f1f3f4",
             };
           }}
         >
@@ -24,7 +24,7 @@ function navbar() {
           id="projectNav"
           style={({ isActive }) => {
             return {
-              backgroundColor: isActive ? "#aaedd4" : "#f1f3f4",
+              backgroundColor: isActive ? "#92DDEA" : "#f1f3f4",
             };
           }}
         >

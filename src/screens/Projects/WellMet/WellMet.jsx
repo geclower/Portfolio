@@ -10,7 +10,7 @@ function WellMet() {
         <div className="project-wellmet-image">
           <img
             className="project-image"
-            src="https://i.imgur.com/IU5D58Q.jpg"
+            src="https://i.imgur.com/bSm34Em.png"
           />
         </div>
         <div class="gradient" id="gradient-wellmet"></div>
@@ -70,6 +70,20 @@ function WellMet() {
               item in case the user is looking for further information.
             </p>
           </div>
+        </div>
+        <div className="project-wellmet-screens">
+          <img
+            className="project-screen-large"
+            src="https://i.imgur.com/typnhdp.png"
+          />
+          <img
+            className="project-screen-small"
+            src="https://i.imgur.com/UYsrgEs.png"
+          />
+          <img
+            className="project-screen-small"
+            src="https://i.imgur.com/MuCsgkS.png"
+          />
         </div>
       </div>
       <Navbar />
