@@ -66,8 +66,9 @@ function Projects() {
         </div>
       </Link>
       <Link to="/projects/broadwaybound" className="project-preview" id="bwaybound">
-      <img className="preview-pic" src="https://i.imgur.com/IU5D58Q.jpg" />
+      <img className="preview-pic" src="https://i.imgur.com/dzoZa8Y.png" />
         <h5 className="preview-title">Broadway Bound</h5>
+        <p className="in-progress">**In Progress**</p>
         <p className="preview-oneliner">A database of all currently running broadway shows with links to tickets and opening/closing dates.
 
         </p>
@@ -77,6 +78,7 @@ function Projects() {
         <p className="solo-skills">React</p>
         <p className="solo-skills">Node.js</p>
         </div>
+        
       </Link>
       <Navbar />
     </div>

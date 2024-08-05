@@ -10,7 +10,7 @@ function BroadwayBound() {
         <div className="project-bwaybound-image">
           <img
             className="project-image"
-            src="https://i.imgur.com/IU5D58Q.jpg"
+            src="https://i.imgur.com/dzoZa8Y.png"
           />
         </div>
         <div class="gradient" id="gradient-bwaybound"></div>
@@ -25,6 +25,7 @@ function BroadwayBound() {
         </div>
         <div className="project-bwaybound-bio">
           <h2 className="project-bwaybound-title">Broadway Bound</h2>
+          <p className="in-progress">**In Progress**</p>
           <div className="skill-sec">
             <p className="solo-skills" id="bwaybound-solo-skills">
               MongoDB
@@ -62,6 +63,12 @@ function BroadwayBound() {
               week.
             </p>
           </div>
+        </div>
+        <div className="project-bwaybound-screens">
+          <img
+            className="project-screen-large"
+            src="https://i.imgur.com/t3X97Wj.png"
+          />
         </div>
       </div>
       <Navbar />

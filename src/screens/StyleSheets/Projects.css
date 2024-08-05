@@ -41,6 +41,12 @@
     margin-bottom: 0;
 }
 
+.in-progress{
+    font-family: Quicksand;
+    font-size: 25px;
+    margin: 0;
+}
+
 .preview-oneliner{
     font-family: Quicksand;
     font-size: 20px;
