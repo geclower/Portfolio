@@ -8,7 +8,7 @@ import pdf from "../FullResumeGraceClower.pdf"
 function About() {
   return (
     <div className="aboutPage">
-      <div classname="profileSection">
+      <div id="profileSection">
         <ProfileCard />
       </div>
       <div className="aboutSection">

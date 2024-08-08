@@ -3,13 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-bottom: 50px; */
     gap: 50px
-}
-
-.profileSection{
-    position: fixed;
-
 }
 
 .aboutSection{
@@ -40,7 +34,6 @@
 
 .longerBio{
     box-shadow: 1px 1px 20px 10px #9579d1;
-
 }
 
 .bio{
@@ -72,13 +65,10 @@
 
 }
 
-
 .experience{
     box-shadow: 1px 1px 20px 10px #4cf0b4;
     height:fit-content;
-
 }
-
 
 .resume-div{
     text-align: right;
@@ -90,3 +80,59 @@ h5{
     font-weight:500;
     font-size: 17px;
 }
+
+/* media queries */
+
+
+/* tablet */
+@media(max-width:1050px){
+    .aboutPage{
+        flex-direction: column;
+        justify-content: center;
+        height:fit-content;
+        width:100vw;
+    }
+    #profileSection{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .aboutSection{
+        width:85%
+    }
+  }
+  
+  /* phone */
+  @media(max-width:450px){
+    .aboutPage{
+        flex-direction: column;
+        justify-content: center;
+        height:fit-content;
+        width:100vw;
+    }
+    #profileSection{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .aboutSection{
+        width:95%
+    }
+    .bio{
+        font-size: 15px;
+    }
+    .solo-skills{
+        font-size: 15px;
+    }
+    .longerBio{
+        box-shadow: 1px 1px 15px 5px #9579d1;
+    }
+    .experience{
+        box-shadow: 1px 1px 15px 5px #4cf0b4;
+    }
+    .skills{
+        box-shadow: 1px 1px 15px 5px #fc57b4;
+    }
+    }
