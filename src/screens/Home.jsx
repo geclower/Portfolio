@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="homePage">
-       <div className="project-previews">
+       <div className="project-previews-top">
         <Link className="project-preview-wat" to="/projects/whereartthou">
           <img
             className="project-preview-image"
@@ -29,7 +29,7 @@ function Home() {
         </p>
       </div>
       <div class="gradient"></div>
-      <div className="project-previews">
+      <div className="project-previews-bottom">
         <Link className="project-preview-ts" to="/projects/touchstone">
           <img
             className="project-preview-image"
