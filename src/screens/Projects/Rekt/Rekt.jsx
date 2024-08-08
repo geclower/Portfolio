@@ -14,7 +14,7 @@ function Rekt() {
           />
         </div>
         <div class="gradient" id="gradient-rekt"></div>
-        <div className="project-links">
+        <div className="project-links-rekt">
           <Link
             className="project-link-rekt"
             to="https://github.com/jbourke16/team-rekt-frontend"
@@ -54,8 +54,8 @@ function Rekt() {
           </p>
         </div>
        
-        <div className="project-overview">
-          <h3 id="project-overview-title"> Overview</h3>
+        <div className="project-overview-rekt">
+          <h3 id="project-overview-title-rekt"> Overview</h3>
           <p>
             REK'T is a social gaming platform that connects passionate gamers,
             allowing them to explore, review, and share their love of their
@@ -66,8 +66,8 @@ function Rekt() {
             or edit a review.
           </p>
         </div>
-        <div className="project-contribution">
-          <h3 id="project-contribution-title">My Contributions</h3>
+        <div className="project-contribution-rekt">
+          <h3 id="project-contribution-title-rekt">My Contributions</h3>
           <p>
             I was instrumental in maintaining and updating the back-end routes
             through MongoDB as our project grew. I also was fully responsible
@@ -79,15 +79,15 @@ function Rekt() {
         </div>
         <div className="project-rekt-screens">
           <img
-            className="project-screen-large"
+            className="project-screen-large-rekt"
             src="https://i.imgur.com/NJ26PnH.png"
           />
           <img
-            className="project-screen-small"
+            className="project-screen-small-rekt"
             src="https://i.imgur.com/tzzHXWw.png"
           />
           <img
-            className="project-screen-small"
+            className="project-screen-small-rekt"
             src="https://i.imgur.com/nKU4sjE.png"
           />
         </div>

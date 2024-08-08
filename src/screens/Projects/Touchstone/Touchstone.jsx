@@ -14,7 +14,7 @@ function Touchstone() {
           />
         </div>
         <div class="gradient" id="gradient-touchstone"></div>
-        <div className="project-links">
+        <div className="project-links-ts">
           <Link
             className="project-link-touchstone"
             to="https://github.com/CodingDos/TouchStone"
@@ -44,8 +44,8 @@ function Touchstone() {
             </p>
           </div>
 
-          <div className="project-overview">
-            <h3 id="project-overview-title"> Overview</h3>
+          <div className="project-overview-ts">
+            <h3 id="project-overview-title-ts"> Overview</h3>
             <p>
               Explore Braille with TouchStone, a learning app tailored for
               individuals experiencing vision loss and those curious about
@@ -54,8 +54,8 @@ function Touchstone() {
               query about Braille questions/translations.
             </p>
           </div>
-          <div className="project-contribution">
-            <h3 id="project-contribution-title">My Contributions</h3>
+          <div className="project-contribution-ts">
+            <h3 id="project-contribution-title-ts">My Contributions</h3>
             <p>
               I worked closely with our UX team and personally created the front
               end structure and all components to help the team maintain
@@ -67,15 +67,15 @@ function Touchstone() {
         </div>
         <div className="project-touchstone-screens">
           <img
-            className="project-screen-small"
+            className="project-screen-small-ts"
             src="https://i.imgur.com/KkuCsdE.png"
           />
           <img
-            className="project-screen-small"
+            className="project-screen-small-ts"
             src="https://i.imgur.com/VmXTcBZ.png"
           />
           <img
-            className="project-screen-large"
+            className="project-screen-large-ts"
             src="https://i.imgur.com/WaxqrPi.png"
           />
         </div>
