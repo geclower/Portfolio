@@ -14,7 +14,7 @@ function BroadwayBound() {
           />
         </div>
         <div class="gradient" id="gradient-bwaybound"></div>
-        <div className="project-links">
+        <div className="project-links-bb">
           <Link
             className="project-link-bwaybound"
             to="https://github.com/geclower/BroadwayAPI"
@@ -41,8 +41,8 @@ function BroadwayBound() {
             </p>
           </div>
 
-          <div className="project-overview">
-            <h3 id="project-overview-title"> Overview</h3>
+          <div className="project-overview-bb">
+            <h3 id="project-overview-title-bb"> Overview</h3>
             <p>
               It can be so hard to know what show to go see. What's running?
               What's closing soon? What is the cheapest ticket I can get?
@@ -50,8 +50,8 @@ function BroadwayBound() {
               broadway shows. This API will be updated about once a week.
             </p>
           </div>
-          <div className="project-contribution">
-            <h3 id="project-contribution-title">My Contributions</h3>
+          <div className="project-contribution-bb">
+            <h3 id="project-contribution-title-bb">My Contributions</h3>
             <p>
               This project is currently under development to implement the API
               to source and categorize all discounted Broadway tickets into one
@@ -66,7 +66,7 @@ function BroadwayBound() {
         </div>
         <div className="project-bwaybound-screens">
           <img
-            className="project-screen-large"
+            className="project-screen-large-bb"
             src="https://i.imgur.com/t3X97Wj.png"
           />
         </div>

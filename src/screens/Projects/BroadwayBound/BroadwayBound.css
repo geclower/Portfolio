@@ -5,6 +5,7 @@
     align-items: center;
     overflow:auto;
 }
+
 .project-bwaybound{
     display: flex;
     flex-direction: column;
@@ -18,7 +19,7 @@
     gap: 50px;
 }
 
-.project::-webkit-scrollbar{
+.project-bwaybound::-webkit-scrollbar{
     display: none;
 }
 
@@ -28,7 +29,7 @@
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    width:50%;
+    width:30%;
 }
 .project-image{
     border-radius: 15px;
@@ -60,33 +61,33 @@
 }
 
 /* overview */
-.project-overview{
+.project-overview-bb{
     width: 75%;
     font-family: Quicksand;
     font-size: 20px;
    
 }
 
-#project-overview-title{
+#project-overview-title-bb{
     font-family: Quicksand;
     font-size: 30px;
 }
 
 /* contribution */
 
-.project-contribution{
+.project-contribution-bb{
     width: 75%;
     font-family: Quicksand;
     font-size: 20px;
 }
 
-#project-contribution-title{
+#project-contribution-title-bb{
     font-family: Quicksand;
     font-size: 30px;
 }
 
 /* links */
-.project-links{
+.project-links-bb{
     display: flex;
     gap: 50px;
     font-family: Quicksand;
@@ -122,13 +123,79 @@
     justify-content: center;
 }
 
-.project-screen-large{
+.project-screen-large-bb{
     width: 65%;
     border: 2px solid lightgray;
     border-radius: 15px;
 }
-.project-screen-small{
+.project-screen-small-bb{
     width: 40%;
     border: 2px solid lightgray;
     border-radius: 15px;
 }
+
+/* media queries */
+
+/* tablet */
+@media (max-width: 1050px) {
+    .project-bwaybound-image {
+      width: 80%;
+    }
+    .project-bwaybound-bio {
+      width: 100%;
+    }
+  
+    .project-screen-large-bb {
+      width: 100%;
+    }
+    .project-screen-small-bb {
+      width: 45%;
+    }
+  }
+  
+  /* phone */
+  @media (max-width: 450px) {
+    .project-bwaybound-image {
+      width: 100%;
+    }
+    .project-links-bb {
+      font-size: 25px;
+      gap: 40px;
+    }
+    .project-bwaybound-bio {
+      width: 100%;
+    }
+    .project-bwaybound-title {
+      font-size: 40px;
+    }
+    .project-overview-bb {
+      font-size: 15px;
+    }
+  
+    #project-overview-title-bb {
+      font-family: Quicksand;
+      font-size: 25px;
+    }
+    .project-contribution-bb {
+      width: 75%;
+      font-family: Quicksand;
+      font-size: 15px;
+    }
+  
+    #project-contribution-title-bb {
+      font-family: Quicksand;
+      font-size: 25px;
+    }
+    .project-bwaybound-screens {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-screen-large-bb {
+      width: 100%;
+    }
+    .project-screen-small-bb {
+      width: 80%;
+    }
+  }
+  

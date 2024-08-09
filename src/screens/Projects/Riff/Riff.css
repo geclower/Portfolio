@@ -28,7 +28,7 @@
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    width: 50%
+    width: 30%
 }
 .project-image{
     border-radius: 15px;
@@ -60,38 +60,39 @@
 }
 
 /* overview */
-.project-overview{
+.project-overview-riff{
     width: 75%;
     font-family: Quicksand;
     font-size: 20px;
    
 }
 
-#project-overview-title{
+#project-overview-title-riff{
     font-family: Quicksand;
     font-size: 30px;
 }
 
 /* contribution */
 
-.project-contribution{
+.project-contribution-riff{
     width: 75%;
     font-family: Quicksand;
     font-size: 20px;
 }
 
-#project-contribution-title{
+#project-contribution-title-riff{
     font-family: Quicksand;
     font-size: 30px;
 }
 
 /* links */
-.project-links{
+.project-links-riff{
     display: flex;
     gap: 50px;
     font-family: Quicksand;
     font-size: 30px;
-
+    align-items: center;
+  height: 100%;
 }
 
 .project-link-riff{
@@ -122,13 +123,99 @@
     justify-content: center;
 }
 
-.project-screen-large{
+.project-screen-large-riff{
     width: 65%;
     border: 2px solid lightgray;
     border-radius: 15px;
 }
-.project-screen-small{
+.project-screen-small-riff{
     width: 40%;
     border: 2px solid lightgray;
     border-radius: 15px;
 }
+
+/* media queries */
+
+/* tablet */
+@media (max-width: 1050px) {
+    .project-touchstone-image {
+      width: 80%;
+    }
+    .project-links-riff {
+      font-size: 20px;
+      gap: 20px;
+      width: 100%;
+    }
+  
+    .project-link-riff {
+      width: 40%;
+      text-align: center;
+    }
+    .project-riff-bio {
+      width: 100%;
+    }
+  
+    .project-screen-large-riff {
+      width: 100%;
+    }
+    .project-screen-small-riff {
+      width: 45%;
+    }
+  }
+  
+  /* phone */
+  @media (max-width: 450px) {
+    .project-riff-image {
+      width: 100%;
+    }
+    .project-links-riff {
+      font-size: 20px;
+      gap: 20px;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .project-link-riff {
+      width: 75%;
+      text-align: center;
+    }
+    .skill-sec{
+      width: 95%;
+    }
+    .project-riff-bio {
+      width: 100%;
+    }
+    .project-riff-title {
+      font-size: 40px;
+    }
+    .project-overview-riff {
+      font-size: 15px;
+    }
+  
+    #project-overview-title-riff {
+      font-family: Quicksand;
+      font-size: 25px;
+    }
+    .project-contribution-riff {
+      width: 75%;
+      font-family: Quicksand;
+      font-size: 15px;
+    }
+  
+    #project-contribution-title-riff {
+      font-family: Quicksand;
+      font-size: 25px;
+    }
+    .project-riff-screens {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-screen-large-riff {
+      width: 100%;
+    }
+    .project-screen-small-riff {
+      width: 90%;
+    }
+  }
+  

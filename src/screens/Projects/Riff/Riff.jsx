@@ -14,7 +14,7 @@ function Riff() {
           />
         </div>
         <div class="gradient" id="gradient-riff"></div>
-        <div className="project-links">
+        <div className="project-links-riff">
           <Link
             className="project-link-riff"
             to="https://github.com/jwow1000/front-end-riff"
@@ -47,8 +47,8 @@ function Riff() {
             </p>
           </div>
 
-          <div className="project-overview">
-            <h3 id="project-overview-title"> Overview</h3>
+          <div className="project-overview-riff">
+            <h3 id="project-overview-title-riff"> Overview</h3>
             <p>
               Riff serves as a dedicated space for artists to connect,
               collaborate, and innovate. By harnessing the power of collective
@@ -60,8 +60,8 @@ function Riff() {
               threaded comments associated with individual posts.
             </p>
           </div>
-          <div className="project-contribution">
-            <h3 id="project-contribution-title">My Contributions</h3>
+          <div className="project-contribution-riff">
+            <h3 id="project-contribution-title-riff">My Contributions</h3>
             <p>
               I was instrumental in building and implementing a fully flexible
               Django backend. This site focuses on artist collaboration by using
@@ -74,19 +74,19 @@ function Riff() {
         </div>
         <div className="project-riff-screens">
           <img
-            className="project-screen-large"
+            className="project-screen-large-riff"
             src="https://i.imgur.com/FTZkhQK.png"
           />
           <img
-            className="project-screen-small"
+            className="project-screen-small-riff"
             src="https://i.imgur.com/12o4VWw.png"
           />
           <img
-            className="project-screen-small"
+            className="project-screen-small-riff"
             src="https://i.imgur.com/crVTQsq.png"
           />
           <img
-            className="project-screen-large"
+            className="project-screen-large-riff"
             src="https://i.imgur.com/7czOt5B.png"
           />
         </div>

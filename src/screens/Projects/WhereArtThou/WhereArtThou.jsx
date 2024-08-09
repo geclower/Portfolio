@@ -14,7 +14,7 @@ function WhereArtThou() {
           />
         </div>
         <div class="gradient" id="gradient-whereart"></div>
-        <div className="project-links">
+        <div className="project-links-wat">
           <Link
             className="project-link-whereart"
             to="https://geclower.github.io/Where-Art-Thou/"
@@ -44,8 +44,8 @@ function WhereArtThou() {
             </p>
           </div>
 
-          <div className="project-overview">
-            <h3 id="project-overview-title"> Overview</h3>
+          <div className="project-overview-wat">
+            <h3 id="project-overview-title-wat"> Overview</h3>
             <p>
               The classic question... What do you want to watch tonight? Where
               Art Thou? will help you narrow down the options based on four
@@ -55,8 +55,8 @@ function WhereArtThou() {
               streaming service.
             </p>
           </div>
-          <div className="project-contribution">
-            <h3 id="project-contribution-title">My Contributions</h3>
+          <div className="project-contribution-wat">
+            <h3 id="project-contribution-title-wat">My Contributions</h3>
             <p>
               For this site I connected to an API which provides all media
               available across streaming platforms. Imade varying JSON API fetch
@@ -74,15 +74,15 @@ function WhereArtThou() {
         </div>
         <div className="project-whereart-screens">
           <img
-            className="project-screen-small"
+            className="project-screen-small-wat"
             src="https://i.imgur.com/Lj07dsq.png"
           />
           <img
-            className="project-screen-small"
+            className="project-screen-small-wat"
             src="https://i.imgur.com/rtXqaZ4.png"
           />
           <img
-            className="project-screen-large"
+            className="project-screen-large-wat"
             src="https://i.imgur.com/XM9HYhi.png"
           />
         </div>

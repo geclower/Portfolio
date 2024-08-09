@@ -14,7 +14,7 @@ function WellMet() {
           />
         </div>
         <div class="gradient" id="gradient-wellmet"></div>
-        <div className="project-links">
+        <div className="project-links-wm">
           <Link
             className="project-link-wellmet"
             to="https://github.com/geclower/WellMet"
@@ -47,8 +47,8 @@ function WellMet() {
             </p>
           </div>
 
-          <div className="project-overview">
-            <h3 id="project-overview-title"> Overview</h3>
+          <div className="project-overview-wm">
+            <h3 id="project-overview-title-wm"> Overview</h3>
             <p>
               Have you ever wanted to visit The Met but don't live in New York
               (or can't be bothered to go to the Upper East Side)? Welcome to
@@ -58,8 +58,8 @@ function WellMet() {
               of items within the public domain.
             </p>
           </div>
-          <div className="project-contribution">
-            <h3 id="project-contribution-title">My Contributions</h3>
+          <div className="project-contribution-wm">
+            <h3 id="project-contribution-title-wm">My Contributions</h3>
             <p>
               For this project I connected to The Met API and customized all
               routes to prevent non-public domain pulls. I created a flexible
@@ -73,15 +73,15 @@ function WellMet() {
         </div>
         <div className="project-wellmet-screens">
           <img
-            className="project-screen-large"
+            className="project-screen-large-wm"
             src="https://i.imgur.com/typnhdp.png"
           />
           <img
-            className="project-screen-small"
+            className="project-screen-small-wm"
             src="https://i.imgur.com/UYsrgEs.png"
           />
           <img
-            className="project-screen-small"
+            className="project-screen-small-wm"
             src="https://i.imgur.com/MuCsgkS.png"
           />
         </div>
