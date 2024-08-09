@@ -86,7 +86,7 @@ function About() {
             </ul>
           </div>
           <div className="resume-div">
-            <a classname="resume" href={pdf} download target="_blank">
+            <a classname="resume" href={pdf} download target="_blank" rel="noreferrer">
               View Full Resume
             </a>
           </div>

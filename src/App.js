@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import React, {useRef} from 'react';
+import React from 'react';
 import './App.css';
 import Home from './screens/Home.jsx'
 import Projects from './screens/Projects.jsx';
