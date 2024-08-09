@@ -11,6 +11,7 @@ function WellMet() {
           <img
             className="project-image"
             src="https://i.imgur.com/bSm34Em.png"
+            alt="project preview"
           />
         </div>
         <div class="gradient" id="gradient-wellmet"></div>
@@ -75,14 +76,17 @@ function WellMet() {
           <img
             className="project-screen-large-wm"
             src="https://i.imgur.com/typnhdp.png"
+            alt="project preview"
           />
           <img
             className="project-screen-small-wm"
             src="https://i.imgur.com/UYsrgEs.png"
+            alt="project preview"
           />
           <img
             className="project-screen-small-wm"
             src="https://i.imgur.com/MuCsgkS.png"
+            alt="project preview"
           />
         </div>
       </div>

@@ -11,6 +11,7 @@ function BroadwayBound() {
           <img
             className="project-image"
             src="https://i.imgur.com/dzoZa8Y.png"
+            alt="project preview"
           />
         </div>
         <div class="gradient" id="gradient-bwaybound"></div>
@@ -68,6 +69,7 @@ function BroadwayBound() {
           <img
             className="project-screen-large-bb"
             src="https://i.imgur.com/t3X97Wj.png"
+            alt="project preview"
           />
         </div>
       </div>

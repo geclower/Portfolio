@@ -11,6 +11,7 @@ function Touchstone() {
           <img
             className="project-image"
             src="https://i.imgur.com/iV3kRAY.jpeg"
+            alt="project preview"
           />
         </div>
         <div class="gradient" id="gradient-touchstone"></div>
@@ -69,14 +70,17 @@ function Touchstone() {
           <img
             className="project-screen-small-ts"
             src="https://i.imgur.com/KkuCsdE.png"
+            alt="project preview"
           />
           <img
             className="project-screen-small-ts"
             src="https://i.imgur.com/VmXTcBZ.png"
+            alt="project preview"
           />
           <img
             className="project-screen-large-ts"
             src="https://i.imgur.com/WaxqrPi.png"
+            alt="project preview"
           />
         </div>
       </div>

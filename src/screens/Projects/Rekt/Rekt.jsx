@@ -11,6 +11,7 @@ function Rekt() {
           <img
             className="project-image"
             src="https://i.imgur.com/pnwr40r.png"
+            alt="project preview"
           />
         </div>
         <div class="gradient" id="gradient-rekt"></div>
@@ -81,14 +82,17 @@ function Rekt() {
           <img
             className="project-screen-large-rekt"
             src="https://i.imgur.com/NJ26PnH.png"
+            alt="project preview"
           />
           <img
             className="project-screen-small-rekt"
             src="https://i.imgur.com/tzzHXWw.png"
+            alt="project preview"
           />
           <img
             className="project-screen-small-rekt"
             src="https://i.imgur.com/nKU4sjE.png"
+            alt="project preview"
           />
         </div>
         

@@ -10,6 +10,7 @@ function Riff() {
         <div className="project-riff-image">
           <img
             className="project-image"
+            alt="project preview"
             src="https://i.imgur.com/uuWFzD7.png"
           />
         </div>
@@ -76,18 +77,22 @@ function Riff() {
           <img
             className="project-screen-large-riff"
             src="https://i.imgur.com/FTZkhQK.png"
+            alt="project preview"
           />
           <img
             className="project-screen-small-riff"
             src="https://i.imgur.com/12o4VWw.png"
+            alt="project preview"
           />
           <img
             className="project-screen-small-riff"
             src="https://i.imgur.com/crVTQsq.png"
+            alt="project preview"
           />
           <img
             className="project-screen-large-riff"
             src="https://i.imgur.com/7czOt5B.png"
+            alt="project preview"
           />
         </div>
       </div>

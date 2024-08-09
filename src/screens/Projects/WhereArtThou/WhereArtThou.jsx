@@ -11,6 +11,7 @@ function WhereArtThou() {
           <img
             className="project-image"
             src="https://i.imgur.com/Ck5edln.png"
+            alt="project preview"
           />
         </div>
         <div class="gradient" id="gradient-whereart"></div>
@@ -76,14 +77,17 @@ function WhereArtThou() {
           <img
             className="project-screen-small-wat"
             src="https://i.imgur.com/Lj07dsq.png"
+            alt="project preview"
           />
           <img
             className="project-screen-small-wat"
             src="https://i.imgur.com/rtXqaZ4.png"
+            alt="project preview"
           />
           <img
             className="project-screen-large-wat"
             src="https://i.imgur.com/XM9HYhi.png"
+            alt="project preview"
           />
         </div>
       </div>

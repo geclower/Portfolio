@@ -16,7 +16,7 @@ function navbar() {
             };
           }}
         >
-          <img id="homeIcon" src="https://i.imgur.com/m16jYp0.png" />
+          <img id="homeIcon" src="https://i.imgur.com/m16jYp0.png" alt="home icon"/>
         </NavLink>
         <NavLink
           to="/projects"
@@ -28,7 +28,7 @@ function navbar() {
             };
           }}
         >
-          <img id="projectIcon" src="https://i.imgur.com/vqTtA0b.png" />
+          <img id="projectIcon" src="https://i.imgur.com/vqTtA0b.png" alt="project icon"/>
         </NavLink>
         <NavLink
           to="/about"
@@ -40,7 +40,7 @@ function navbar() {
             };
           }}
         >
-          <img id="aboutIcon" src="https://i.imgur.com/h7gmnga.png" />
+          <img id="aboutIcon" src="https://i.imgur.com/h7gmnga.png" alt="about icon"/>
         </NavLink>
 
         <div
@@ -50,7 +50,7 @@ function navbar() {
             window.location.href = "mailto:clower.grace@gmail.com";
           }}
         >
-          <img id="mailIcon" src="https://i.imgur.com/CQVjnKf.png" />
+          <img id="mailIcon" src="https://i.imgur.com/CQVjnKf.png" alt="mail icon"/>
         </div>
       </nav>
     </div>

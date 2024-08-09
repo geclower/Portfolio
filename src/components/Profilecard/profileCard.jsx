@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function profileCard() {
   return (
     <div id="profileCard">
-      <img id="profilePic" src="https://i.imgur.com/IU5D58Q.jpg" />
+      <img id="profilePic" src="https://i.imgur.com/IU5D58Q.jpg" alt="profile pic"/>
       <div className="cardBio">
         <h2 id="profileName">Grace Clower</h2>
         <p id="profileMiniBio">
@@ -22,6 +22,7 @@ function profileCard() {
           >
             <img
               id="gitHubIcon"
+              alt="git hub icon"
               src="https://cdn.iconscout.com/icon/free/png-256/free-github-brand-logo-47401.png?f=webp&w=256"
             />
           </Link>
@@ -31,7 +32,7 @@ function profileCard() {
             to="https://www.linkedin.com/in/grace-clower/"
             target="_blank"
           >
-            <img id="linkedInIcon" src="https://i.imgur.com/DGgA31Q.png" />
+            <img id="linkedInIcon" alt="linked in icon" src="https://i.imgur.com/DGgA31Q.png" />
           </Link>
           <Link
             className="profileButtons"
@@ -41,6 +42,7 @@ function profileCard() {
           >
             <img
               id="instaIcon"
+              alt="insta icon"
               src="https://cdn.iconscout.com/icon/free/png-256/free-social-137-95498.png"
             />
           </Link>
@@ -51,7 +53,7 @@ function profileCard() {
               window.location.href = "mailto:clower.grace@gmail.com";
             }}
           >
-            <img id="mailIcon" src="https://i.imgur.com/CQVjnKf.png" />
+            <img id="mailIcon" alt="mail icon" src="https://i.imgur.com/CQVjnKf.png" />
           </Link>
         </div>
       </div>

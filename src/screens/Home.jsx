@@ -11,6 +11,7 @@ function Home() {
           <img
             className="project-preview-image"
             id="ppi-wat"
+            alt="project preview"
             src="https://i.imgur.com/Ck5edln.png"
           />
         </Link>
@@ -18,6 +19,7 @@ function Home() {
           <img
             className="project-preview-image"
             id="ppi-bb"
+            alt="project preview"
             src="https://i.imgur.com/dzoZa8Y.png"
           />
         </Link>
@@ -34,6 +36,7 @@ function Home() {
           <img
             className="project-preview-image"
             id="ppi-ts"
+            alt="project preview"
             src="https://i.imgur.com/iV3kRAY.jpeg"
           />
         </Link>
@@ -41,6 +44,7 @@ function Home() {
           <img
             className="project-preview-image"
             id="ppi-rkt"
+            alt="project preview"
             src="https://i.imgur.com/pnwr40r.png"
           />
         </Link>
@@ -48,6 +52,7 @@ function Home() {
           <img
             className="project-preview-image"
             id="ppi-wm"
+            alt="project preview"
             src="https://i.imgur.com/bSm34Em.png"
           />
         </Link>

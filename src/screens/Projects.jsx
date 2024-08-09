@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className="projects">
       <Link to="/projects/touchstone" className="project-preview" id="touchstone">
-      <img className="preview-pic" src="https://i.imgur.com/iV3kRAY.jpeg" />
+      <img className="preview-pic" src="https://i.imgur.com/iV3kRAY.jpeg" alt="project preview" />
         <h5 className="preview-title">Touchstone</h5>
         <p className="preview-oneliner">A language app to help learn the basics of braille, designed for teachers or parents of kids who are visually impaired.
         </p>
@@ -18,7 +18,7 @@ function Projects() {
         </div>
       </Link>
       <Link to="/projects/rekt" className="project-preview" id="rekt">
-      <img className="preview-pic" src="https://i.imgur.com/pnwr40r.png" />
+      <img className="preview-pic" src="https://i.imgur.com/pnwr40r.png" alt="project preview"/>
         <h5 className="preview-title">REK'T</h5>
         <p className="preview-oneliner">A social platform that allows passionate gamers to explore, review, and share their love of their favorite games.
         </p>
@@ -30,7 +30,7 @@ function Projects() {
         </div>
       </Link>
       <Link to="/projects/riff" className="project-preview" id="riff">
-      <img className="preview-pic" src="https://i.imgur.com/uuWFzD7.png" />
+      <img className="preview-pic" src="https://i.imgur.com/uuWFzD7.png" alt="project preview"/>
         <h5 className="preview-title">[RIFF]</h5>
         <p className="preview-oneliner">A platform designed to facilitate collaboration among artists and enable crowd-sourced art creation.
         </p>
@@ -42,7 +42,7 @@ function Projects() {
         </div>
       </Link>
       <Link to="/projects/wellmet" className="project-preview" id="wellmet">
-      <img className="preview-pic" src="https://i.imgur.com/bSm34Em.png" />
+      <img className="preview-pic" src="https://i.imgur.com/bSm34Em.png" alt="project preview"/>
         <h5 className="preview-title">Well Met!</h5>
         <p className="preview-oneliner">A virtual walkthrough of all public domain art from The Met.
         </p>
@@ -54,7 +54,7 @@ function Projects() {
         </div>
       </Link>
       <Link to="/projects/whereartthou" className="project-preview" id="whereartthou">
-      <img className="preview-pic" src="https://i.imgur.com/Ck5edln.png" />
+      <img className="preview-pic" src="https://i.imgur.com/Ck5edln.png" alt="project preview"/>
         <h5 className="preview-title">Where Art Thou?</h5>
         <p className="preview-oneliner">A site where users can find a list of available media, based on their country and streaming service.
 
@@ -66,7 +66,7 @@ function Projects() {
         </div>
       </Link>
       <Link to="/projects/broadwaybound" className="project-preview" id="bwaybound">
-      <img className="preview-pic" src="https://i.imgur.com/dzoZa8Y.png" />
+      <img className="preview-pic" src="https://i.imgur.com/dzoZa8Y.png" alt="project preview" />
         <h5 className="preview-title">Broadway Bound</h5>
         <p className="in-progress">**In Progress**</p>
         <p className="preview-oneliner">A database of all currently running broadway shows with links to tickets and opening/closing dates.
