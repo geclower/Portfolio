@@ -22,7 +22,7 @@
     padding: 40px 20px;
     background-color: white;
     border: 2px solid lightgray;
-    height: 650px;
+    height: 675px;
     border-radius: 15px;
     width: 35%;
     text-decoration: none;
@@ -31,7 +31,7 @@
 .preview-pic{
     border: 2px solid lightgray;
     border-radius: 15px;
-    width: 70%;
+    width: 60%;
 }
 
 .preview-title{
