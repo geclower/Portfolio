@@ -60,7 +60,7 @@ function WhereArtThou() {
             <h3 id="project-contribution-title-wat">My Contributions</h3>
             <p>
               For this site I connected to an API which provides all media
-              available across streaming platforms. Imade varying JSON API fetch
+              available across streaming platforms. I made varying JSON API fetch
               calls for all features of the application to ensure users receive
               the most consistent and up to date options. The streaming service
               is pulled based on which country you select as not all services

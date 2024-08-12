@@ -17,12 +17,12 @@
 .project-preview{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 40px 20px;
     background-color: white;
     border: 2px solid lightgray;
-    height: 700px;
+    height: 650px;
     border-radius: 15px;
     width: 35%;
     text-decoration: none;
@@ -45,11 +45,13 @@
     font-family: Quicksand;
     font-size: 25px;
     margin: 0;
+    text-align: center;
 }
 
 .preview-oneliner{
     font-family: Quicksand;
     font-size: 20px;
+    text-align: center;
 }
 
 #touchstone:hover{
@@ -83,7 +85,7 @@
 @media(max-width:1050px){
     .project-preview{
         width:45%;
-        justify-content: space-evenly;
+        justify-content: space-between;
         height: 650px
     }
     .preview-title{

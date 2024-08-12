@@ -22,7 +22,9 @@ function About() {
             love of helping others learn and thrive through my time teaching
             stage combat. I want to bring my curiosity and problem-solving
             skills to help a team grow and build creative technology to make art
-            accessible to as many people as possible.<br></br>
+            accessible to as many people as possible.
+            <br></br>
+            <br></br>
             In my free time, I explore on the SV Amari. I love going to new
             places and meeting wonderful people from around the world. I also
             obessesivly cross-stitch and I've just started DM'ing some D&D

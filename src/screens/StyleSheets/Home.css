@@ -1,37 +1,36 @@
-.homePage{
+.homePage {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-.introBox{
+.introBox {
   background-color: white;
   height: min-content;
   width: max-content;
   margin-top: 5%;
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 10px 10px 10px rgb(149, 121, 209, .3);
+  box-shadow: 10px 10px 10px rgb(149, 121, 209, 0.3);
   z-index: 1;
-
 
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
   position: fixed;
 
   font-family: Quicksand;
   font-weight: bold;
 }
-.introName{
+.introName {
   font-size: 50px;
   font-family: Quicksand;
   font-weight: bold;
 }
-.introDescriptor{
-  font-size:35px
+.introDescriptor {
+  font-size: 35px;
+  text-align: center;
 }
 
 /* background gradient */
@@ -53,7 +52,7 @@
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
-  background-image: linear-gradient( hsl(202, 55%, 67%, 1), hsl(326, 100%, 82%));
+  background-image: linear-gradient(hsl(202, 55%, 67%, 1), hsl(326, 100%, 82%));
   animation: rotate var(--speed) var(--easing) alternate infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   position: fixed;
@@ -66,98 +65,161 @@
 
 /* project previews */
 
-.project-previews-top, .project-previews-bottom{
+.project-previews-top,
+.project-previews-bottom {
   z-index: 1;
   display: flex;
-  width:80%;
+  width: 80%;
   margin-top: 90px;
   justify-content: space-between;
 }
 
-.project-preview-image{
+.project-preview-image {
   width: 250px;
   border: 2px solid lightgray;
   border-radius: 15px;
   opacity: 0;
 }
 
-#ppi-ts:hover{
+#ppi-ts:hover {
   box-shadow: 1px 1px 20px 10px #4cf0b4;
   opacity: 1;
-  width:275px;
+  width: 275px;
 }
 
-#ppi-rkt:hover{
+#ppi-rkt:hover {
   box-shadow: 1px 1px 20px 10px #9579d1;
   opacity: 1;
-  width:275px;
+  width: 275px;
 }
 
-#ppi-wm:hover{
+#ppi-wm:hover {
   box-shadow: 1px 1px 20px 10px #ffa5d8;
   opacity: 1;
-  width:275px;
+  width: 275px;
 }
 
-#ppi-wat:hover{
-  box-shadow: 1px 1px 20px 10px #F7665F;
+#ppi-wat:hover {
+  box-shadow: 1px 1px 20px 10px #f7665f;
   opacity: 1;
-  width:275px;
+  width: 275px;
 }
 
-#ppi-bb:hover{
+#ppi-bb:hover {
   box-shadow: 1px 1px 20px 10px darkgrey;
   opacity: 1;
-  width:275px;
+  width: 275px;
 }
 
 /* media queries */
 
-
 /* tablet */
-@media(max-width:1350px){
-  .introBox{
+@media (max-width: 1350px) {
+  .introBox {
     margin-top: 10%;
   }
 
-  .introName{
+  .introName {
     font-size: 55px;
   }
 
-  .introDescriptor{
-    font-size:38px
+  .introDescriptor {
+    font-size: 38px;
   }
 
-  .project-previews-top{
-    width:1px;
-    margin-top: 150px;
+  .project-previews-bottom {
+    width: 90%;
+    margin-top: 420px;
   }
 
-  .project-previews-bottom{
-    width:90%;
-    margin-top: 200px;
+  .project-preview-image {
+    width: 175px;
   }
 
-  .project-preview-image{
-    width:225px;
+  #ppi-ts:hover {
+    width: 250px;
+  }
+  
+  #ppi-rkt:hover {
+    width: 220px;
+  }
+  
+  #ppi-wm:hover {
+    width: 250px;
+  }
+  
+  #ppi-wat {
+    width: 0px;
+  }
+  
+  #ppi-bb {
+    width: 0px;
   }
 }
 
 /* phone */
-@media(max-width:450px){
-  .introBox{
+@media (max-width: 650px) {
+  .introBox {
     margin-top: 30%;
   }
 
-  .introName{
+  .introName {
     font-size: 40px;
   }
 
-  .introDescriptor{
-    font-size:23px
+  .introDescriptor {
+    font-size: 23px;
   }
 
-  .project-preview-image{
-    width:1px;
+  .project-preview-image {
+    height: 0;
+    width: 0;
+  }
+  #ppi-ts {
+    width: 0px;
+  }
+  
+  #ppi-rkt {
+    width: 0px;
+  }
+  
+  #ppi-wm {
+    width: 0px;
+  }
+  
+  #ppi-wat {
+    width: 0px;
+  }
+  
+  #ppi-bb {
+    width: 0px;
+  }
+}
+
+/* short screens */
+
+@media (max-height: 850px) and (min-width: 1050px) {
+  .project-preview-image {
+    height: 0;
+    width: 0;
+  }
+  #ppi-ts {
+    width: 0px;
+  }
+  
+  #ppi-rkt {
+    width: 0px;
+  }
+  
+  #ppi-wm {
+    width: 0px;
+  }
+  
+  #ppi-wat {
+    width: 0px;
+  }
+  
+  #ppi-bb {
+    width: 0px;
   }
 }

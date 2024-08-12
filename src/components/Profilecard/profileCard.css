@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
-    height: 75%;
+    height: 100%;
     width: 450px;
     border: 2px solid lightgray;
     border-radius: 15px;
@@ -107,12 +107,16 @@
 /* media queries */
 
 
+  /* short screens */
+
+
 /* tablet */
-@media(min-width: 600px) and (max-width:1050px){
+@media(min-width: 850px) and (max-width:1049px){
    #profileCard{
     flex-direction: row;
     width:90%;
     justify-content: space-around;
+    gap: 5px
    }
    #profilePic{
     width:50%;
@@ -141,5 +145,17 @@
     .profileButtons{
         height: 40px;
         width: 40px;
+    }
+  }
+
+  /* short screens */
+
+  @media(max-height:850px) and (min-width:1050px){
+    #profileCard{
+        height: 650px;
+        width: 80%;
+    }
+    #profilePic{
+        width: 60%;
     }
   }
